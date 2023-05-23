@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.logo img {
+    margin-right: 5px;
+    font-size: 1.8rem;
+    height: 50px;
+
+}
+
+span {
+    color: rgb(228, 151, 8);
+}
+
+
+.menu_list a {
+    margin: 1.2rem;
+    font-size: 25px;
+    color: rgb(82, 79, 79);
+}
+
+.menu_list a:hover {
+    color: #000;
+}
+
+
+.home_section {
+    background-image: url(image/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position-x: 50px;
+}
+
+.overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home span {
+    color: rgb(228, 151, 8);
+}
+
+.home_buttons {
+    margin-top: 2rem;
+}
+
+.home_buttons button {
+    padding: 10px 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.home_buttons button {
+    margin-right: 10px;
+    background: rgb(228, 151, 8);
+    color: #fff;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.nav_bar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services .title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
